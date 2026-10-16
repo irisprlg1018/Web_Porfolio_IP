@@ -1,4 +1,20 @@
 body {
-  background-color: #d15dff98;
+  background-color: #201a2298;
   color: white;
 } 
+
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+   margin-top: 200px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+
+}
+
+/*list {
+  list-style-type: none;
+  padding: 0;
+}*/
+
