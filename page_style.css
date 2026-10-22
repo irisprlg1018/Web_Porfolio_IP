@@ -1,13 +1,8 @@
-body {
-  background-color: #000547;
-  color: white;
-  align-items: center;
-  height: 100px ;
-  margin: 50px;
-} 
 
 body{
   font-family: Arial, sans-serif;
+   background-color: #000547;
+   color: white;
   text-align: center;
    margin-top: 200px;
   margin-bottom: 100px;
@@ -16,36 +11,69 @@ body{
 
 }
 
+.intro {
+  font-size: 18px;
+  max-width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro_experience {
+  font-size: 18px;
+  max-width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .links-links {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin: 0;
+
 }
 
 .links-nav {
   display: flex;
-  justify-content: center;
-  color: white;
+   flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin: 0;
 }
 
 .links-experience {
   display: flex;
-  justify-content: center;
+   flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin: 0;
 }
 
 .links-education {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin: 0;
 }
 
 .links-certifications {
   display: flex;
-  justify-content: center;
+   flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin: 0;
 }
 
 .links-projects {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin: 0;
 } 
 
 .btn {
