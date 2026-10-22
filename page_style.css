@@ -1,6 +1,9 @@
 body {
-  background-color: #201a2298;
+  background-color: #000547;
   color: white;
+  align-items: center;
+  height: 100px ;
+  margin: 50px;
 } 
 
 body{
@@ -13,8 +16,43 @@ body{
 
 }
 
-/*list {
-  list-style-type: none;
-  padding: 0;
-}*/
 
+.links-links {
+  display: flex;
+  justify-content: center;
+}
+
+.links-nav {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.links-experience {
+  display: flex;
+  justify-content: center;
+}
+
+.links-education {
+  display: flex;
+  justify-content: center;
+}
+
+.links-certifications {
+  display: flex;
+  justify-content: center;
+}
+
+.links-projects {
+  display: flex;
+  justify-content: center;
+} 
+
+.btn {
+  background-color: #f75b5b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
