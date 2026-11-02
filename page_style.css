@@ -1,20 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-body{
+body {
   font-family: Arial, sans-serif;
-   background-color: #1F2937;
-   color: #dfdcde;
+  background-color: #1f2937;
+  color: #dfdcde;
+  padding: 10px;
+  height: 500px;
+  align-content: center;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-
 }
 
 .intro {
   font-size: 18px;
   max-width: 800px;
   text-align: center;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -32,24 +36,23 @@ body{
   text-decoration: none;
   flex-direction: column;
   align-items: center;
-  padding:0;
+  padding: 0;
   margin: 0;
-
 }
 
 .links-nav {
   display: flex;
-   flex-direction: column;
+  flex-direction: column;
   align-items: center;
-  padding:0;
+  padding: 0;
   margin: 0;
 }
 
 .links-experience {
   display: flex;
-   flex-direction: column;
+  flex-direction: column;
   align-items: center;
-  padding:0;
+  padding: 0;
   margin: 0;
 }
 
@@ -57,15 +60,15 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding:0;
+  padding: 0;
   margin: 0;
 }
 
 .links-certifications {
   display: flex;
-   flex-direction: column;
+  flex-direction: column;
   align-items: center;
-  padding:0;
+  padding: 0;
   margin: 0;
 }
 
@@ -73,24 +76,24 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding:0;
+  padding: 0;
   margin: 0;
-} 
+}
 
 .btn {
   font-family: Arial, sans-serif;
   font-size: 16px;
-  background-color: #B6CBDE;
-  color: #553E53;
+  background-color: #b6cbde;
+  color: #553e53;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 
   .under-construction {
-  font-size: 30px;        
-  text-align: center;
-  font-weight: bold;
-  letter-spacing: 0.5px;
-}
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
 }
